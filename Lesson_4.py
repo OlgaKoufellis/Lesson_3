@@ -23,8 +23,7 @@ else:
     print('Adult')
 
 
-weight = 120
-#если вес мень 150 выводит вес если вес больше 150 выводит привышено значение
+
 
 weight = 120
 if weight <= 150:
@@ -107,4 +106,4 @@ elif weight <= 30:
 elif weight <=60:
     print('your weight is perfect!!!')
 elif weight <=150:
-    print('OMG!!!')
+    print('oooops')
