@@ -30,5 +30,3 @@ if age <= 18: #True
     print('Child')
 else:
     print('Adult')
-
-chch

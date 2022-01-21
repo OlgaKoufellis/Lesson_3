@@ -186,14 +186,14 @@
 #     print(s)
 #
 # '''
-# Задание 4
-# Пользователь вводит с клавиатуры длину линии и
-# символ для заполнения линии. Нужно отобразить на
-# экране горизонтальную линию из введенного символа,
-# указанной длины.
-# Например, если было введено 5 и &, тогда вывод на
-# экран будет такой: &&&&&.
-# '''
+# # Задание 4
+# # Пользователь вводит с клавиатуры длину линии и
+# # символ для заполнения линии. Нужно отобразить на
+# # экране горизонтальную линию из введенного символа,
+# # указанной длины.
+# # Например, если было введено 5 и &, тогда вывод на
+# # экран будет такой: &&&&&.
+# # '''
 #
 #
 #
@@ -222,22 +222,27 @@
 # print(s)
 #
 # #GUESS MY NUMBER
-# import random #библиотека рандомных чисел
-# secret_number = random.randint(1,20)
-# guess_number = 0
-# lifes = 5
-# while secret_number != guess_number and lifes > 0:
-#     guess_number = int(input('Enter :'))
-#     lifes = lifes - 1
-#     print(f'You have {Lifes} lifes')
-#     if secret_number < guess_number:
-#         print("Your number is greater than a secret_number")
-#     elif secret_number > guess_number:
-#         print('Your number is less than a secret_number')
-# if lifes > 0:
-#     print('You Win!!!')
-# else:
-#     print('You Lose!!!')
+lifes = 5
+while lifes > 0:
+ import random #библиотека рандомных чисел
+ secret_number = random.randint(1,20)
+ guess_number = 0
+ while secret_number != guess_number and lifes > 0:
+     guess_number = int(input('Enter :'))
+     lifes = lifes - 1
+     if lifes >= 2:
+      print(f'You have {lifes} lifes')
+     else:
+      print(f'You have {lifes} life')
+     if secret_number < guess_number:
+         print("Your number is greater than a secret_number")
+     elif secret_number > guess_number:
+         print('Your number is less than a secret_number')
+ if lifes >= 0 and secret_number == guess_number:
+     print('You Win!!!')
+     lifes += 1
+ else:
+     print('You Lose!!!')
 #
 # # GAME
 # import random #библиотека рандомных чисел
@@ -289,11 +294,11 @@
 7 * 2 = 14
 7 * 3 = 21
 '''
-a = 7
-number = 0
-while number <= 10:
- print (f'{a} * {number} = {a * number}')
- number += 1
-
+# a = 7
+# number = 0
+# while number <= 10:
+#  print (f'{a} * {number} = {a * number}')
+#  number += 1
+#
 
 # https://github.com/builuk1/builuk1-QA03
