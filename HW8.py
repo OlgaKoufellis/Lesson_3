@@ -132,7 +132,7 @@ min = ''
 sum = 0
 count = 0
 while True:
-    num1 = int(input('Please, enter the first number: '))
+    num1 = int(input('Please, enter a number: '))
     if count == 0:
         count += 1
         min = num1
@@ -160,11 +160,11 @@ while True:
 
 
 # II
-max = -9**999999999
+max = -9**9999999
 min = 9**999999999
 sum = 0
 while True:
-    num1 = int(input('Please, enter the first number: '))
+    num1 = int(input('Please, enter a number: '))
     if num1 > max:
         max = num1
     if num1 < min:

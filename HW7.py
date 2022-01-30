@@ -11,7 +11,7 @@
 
 '''
 
-lifes = 15
+lifes = 5
 while  lifes > 0:
  import random #библиотека рандомных чисел
  secret_number = random.randint(1,20)
