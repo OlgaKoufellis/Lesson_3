@@ -20,6 +20,7 @@ while game:
     rounds = 3
 
 
+
     #Start of game
     for i in range(1,rounds+1):
         player1_choice = ''
