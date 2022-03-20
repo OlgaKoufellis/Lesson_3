@@ -412,9 +412,9 @@
 # x = x == x
 # print(x)
 
-blocks = int(input("Enter the number of blocks: "))
-
-
+# blocks = int(input("Enter the number of blocks: "))
+#
+#
 
 #
 # Write your code here.
@@ -426,13 +426,13 @@ height = 0
 
 
 
-while blocks >= height+1:
-    height = height + 1
-    blocks = blocks - height
-
-
-
-print("The height of the pyramid:", height)
+# while blocks >= height+1:
+#     height = height + 1
+#     blocks = blocks - height
+#
+#
+#
+# print("The height of the pyramid:", height)
 
 # for i in range(1):
 #     print(1)
@@ -462,12 +462,12 @@ print("The height of the pyramid:", height)
 # del t[1]
 # print(t)
 
-
-t =[1,2,3]
-a = t
-del a[1:2]
-print(t)
-print(a)
+#
+# t =[1,2,3]
+# a = t
+# del a[1:2]
+# print(t)
+# print(a)
 #
 # print(a)
 #
@@ -481,4 +481,448 @@ print(a)
 
 # my_list = [i for i in range(-1,2)]
 # print((my_list))
+
+
+
+
+#####
+# def hi():
+#     print("hi")
+#
+# hi()
+
+
+#######
+# def address(street, city, postal_code):
+#     print("Your address is:", street, "St.,", city, postal_code)
+#
+# s = input("Street: ")
+# p_c = input("Postal Code: ")
+# c = input("City: ")
+#
+# address(s, c, p_c)
+
+
+########
+
+# # Ex. 1
+# def subtra(a, b):
+#     print(a - b)
+#
+# subtra(5, 2)    # outputs: 3
+# subtra(2, 5)    # outputs: -3
+#
+#
+# # Ex. 2
+# def subtra(a, b):
+#     print(a - b)
+#
+# subtra(a=5, b=2)    # outputs: 3
+# subtra(b=2, a=5)    # outputs: 3
+#
+# # Ex. 3
+# def subtra(a, b):
+#     print(a - b)
+#
+# subtra(5, b=2)    # outputs: 3
+# subtra(5, 2)    # outputs: 3
+
+
+#####
+
+# def subtra(a, b):
+#     print(a - b)
+#
+# subtra(5, b=2)    # outputs: 3
+# subtra(a = 9, b = 2)    # Syntax Error
+
+
+####
+
+# def add_numbers(a, b=2, c=9):
+#     print(a + b + c)
+#
+# add_numbers(2,4,7)
+
+
+####
+# def boring_function():
+#     print("'Boredom Mode' ON.")
+#     return 123
+#
+# print("This lesson is interesting!")
+# boring_function()
+# print("This lesson is boring...")
+# print(boring_function())
+
+#######
+# value = None
+# if value is None:
+#     print("Sorry, you don't carry any value")
+
+#######
+
+# def strange_function(n):
+#     if(n % 2 == 0):
+#         return True
+#
+# print(strange_function(2))
+# print(strange_function(1))
+#
+# print(strange_function(199))
+
+
+######
+
+# def list_sum(lst):
+#     s = 0
+#
+#     for elem in lst:
+#         s += elem
+#
+#     return s
+#
+# print(list_sum([5, 4, 3]))
+
+
+####
+
+# def strange_list_fun(n):
+#     strange_list = []
+#
+#     for i in range(0, n):
+#         strange_list.insert(0, i)
+#
+#     return strange_list
+#
+#
+# print(strange_list_fun(5))
+
+
+
+#####
+## def is_year_leap(year):
+##     test_data = [1900, 2000, 2016, 1987]
+###     test_results = [False, True, True, False]
+##      for i in range(len(test_data)):
+# 	    year = test_data[i]. #1900
+# 	    print(year,"->",end="")
+#     result = is_year_leap(year)
+#     for j in range(len(test_result)):
+# 	if result == test_results[j]:
+#         print("OK")
+# 	else:
+# 	    print("Failed")
+#     return(yr)
+#
+# is_year_leap(test_data)
+
+
+# test_data = [1900, 2000, 2016, 1987]
+# test_results = [False, True, True, False]
+# for i in range(len(test_data)):
+# 	year = test_data[i]   ###1900
+#     test_data[i] = test_results[i]
+# 	print(year,"->",end="")
+#     # result = 'is_year_leap',year
+#     if test_data[i] == test_results[i]:
+#         print("OK")
+#     else:
+# 		print("Failed")
+
+
+#####123#### function
+# def address(street, city, postal_code):
+#     print("Your address is:", street, "St.,", city, postal_code)
+#
+# s = input("Street: ")
+# p_c = input("Postal Code: ")
+# c = input("City: ")
+#
+# address(s, c, p_c)
+
+####
+
+# def happy_new_year(wishes=True):
+#     print("Three...")
+#     print("Two...")
+#     print("One...")
+#     if not wishes:
+#         return
+#
+#     print("Happy New Year!")
+# happy_new_year()
+
+####
+
+# value = None
+# if value is None:
+#     print("Sorry, you don't carry any value")
+
+
+#####
+
+# def strange_function(n):
+#     if(n % 2 == 0):
+#         return True
+#
+# print(strange_function(4))
+
+####
+
+# def list_sum(lst):
+#     s = 0
+#
+#     for elem in lst:
+#         s += elem
+#
+#     return s
+#
+
+# print(list_sum([1, 4, 8]))
+
+###
+
+# def strange_list_fun(n):
+#     strange_list = []
+#
+#     for i in range(0, n):
+#         strange_list.insert(0, i)
+#
+#     return strange_list
+#
+#
+# print(strange_list_fun(5))
+
+
+#####leap year #####
+
+# def is_year_leap(year):
+#     if year % 2 == 0:
+#         return True
+#
+#
+#
+# test_data = [1900, 2000, 2016, 1987]
+# test_results = [False, True, True, False]
+# for i in range(len(test_data)):
+# 	yr = test_data[i]
+# 	print(yr,"->",end="")
+# 	result = is_year_leap(yr)
+# 	if result == test_results[i]:
+# 		print("OK")
+# 	else:
+# 		print("Failed")
+
+
+######
+# def round_func(a, b):
+#     return round(a, b)
+#
+# lis = [1.98, 2.09, 8.34]
+# for i in range(len(lis)):
+#     u = round_func(lis[i], 1)
+#     u = u*2
+#     print(u)
+#
+# number1 = 2.232342
+# u2 = round_func(number1, 2)
+# print(u2)
+
+
+
+
+########
+# def is_year_leap(year):
+#     if year <= 1580:
+#         print('Not within the Gregorian calendar period')
+#     if year % 4 != 0 or year % 400 != 0:
+#         print('It\'s common year')
+#         return False
+#     elif year % 100 != 0:
+#         print('It\'s leap year')
+#         return True
+#     else:
+#         print('It\'s leap year')
+#         return True
+#
+#
+# def days_in_month(year, month):
+#     res = is_year_leap(year)
+#     if res == True:
+#         if month == 2:
+#             d = 29
+#         if month == 1:
+#             d = 31
+#         if month == 11:
+#             d = 30
+#     else:
+#         if month == 2:
+#             d = 28
+#         if month == 1:
+#             d = 31
+#         if month == 11:
+#             d = 30
+#     return d
+#
+#
+# test_years = [1900, 2000, 2016, 1987]
+# test_months = [2, 2, 1, 11]
+# test_results = [28, 29, 31, 31]
+# for i in range(len(test_years)):
+#     yr = test_years[i]
+#     mo = test_months[i]
+#     print(yr, mo, "->", end="")
+#     result = days_in_month(yr, mo)
+#     if result == test_results[i]:
+#         print("OK")
+#     else:
+#         print("Failed")
+#
+#
+# import calendar
+# print(calendar.monthrange(2022, 4))
+#
+###### проверка дней и месяцев высокосного года и не высокосного
+import calendar
+# def days_in_month(year, month):
+#     c = calendar.monthrange(year, month)[1]
+#     # d = c[1]
+#     print(c)
+#     return c
+#
+#
+# test_years = [1900, 2000, 2016, 1987]
+# test_months = [2, 2, 1, 11]
+# test_results = [28, 29, 31, 31]
+# for i in range(len(test_years)):
+# 	yr = test_years[i]
+# 	mo = test_months[i]
+# 	print(yr, mo, "->", end="")
+# 	result = days_in_month(yr, mo)
+# 	if result == test_results[i]:
+# 		print("OK")
+# 	else:
+# 		print("Failed")
+
+################################### YEAR ##############
+
+# def is_year_leap(year):
+#     if year <= 1580:
+#         print('Not within the Gregorian calendar period')
+#     if year % 4 != 0 or year % 400 != 0:
+#         print('It\'s common year')
+#         return False
+#     elif year % 100 != 0:
+#         print('It\'s leap year')
+#         return True
+#     else:
+#         print('It\'s leap year')
+#         return True
+#
+# #
+# def days_in_month(year, month):
+#     res = is_year_leap(year)
+#     if res == True:
+#         if month == 2:
+#             d = 29
+#         if month == 1:
+#             d = 31
+#         if month == 11:
+#             d = 30
+#     else:
+#         if month == 2:
+#             d = 28
+#         if month == 1:
+#             d = 31
+#         if month == 11:
+#             d = 30
+#     return d
+
+
+
+# def day_of_year(year, month, day):
+#     rez = days_in_month(year,month)
+#     if rez >= day:
+#         return True
+#     else:
+#         return None
+#
+#
+# print(day_of_year(2000, 11, 30))
+# print(day_of_year(2001, 2, 29))
+
+######### простые числа ############
+# def is_prime(num):
+#     for j in range(2, num + 1):
+#         if num // j == num / j:
+#             if num / j != 1:
+#                 return False
+#         if num / j == 1:
+#             return True
+#
+#
+# for i in range(1, 20):
+#     if is_prime(i + 1):
+#         print(i + 1, end=" ")
+
+
+######### перевод галонов в литры  ##################
+'''
+1 American mile = 1.609344 kmetres;
+1 American gallon = 3.785411784 litres.
+
+'''
+#
+# def liters_100km_to_miles_gallon(liters):
+#     mile = 1 * 100 / 1.609344
+#     # print(mile)
+#     gallon = liters * 1 / 3.785411784
+#     # print(gallon)
+#     return mile / gallon
+#
+#
+#
+# def miles_gallon_to_liters_100km(miles):
+#     km = miles * 1.609344 / 1
+#     litters = 1 * 3.785411784 / 1
+#     return litters * 100 / km
+#
+#
+#
+# print(liters_100km_to_miles_gallon(3.9))
+# print(liters_100km_to_miles_gallon(7.5))
+# print(liters_100km_to_miles_gallon(10.))
+# print(miles_gallon_to_liters_100km(60.3))
+# print(miles_gallon_to_liters_100km(31.4))
+# print(miles_gallon_to_liters_100km(23.5))
+
+
+#########
+#
+# def even_num_lst(ran):
+#     lst = []
+#     for num in range(ran):
+#         if num % 2 == 0:
+#             lst.append(num)
+#     return lst
+#
+# print(even_num_lst(13))
+
+
+######
+
+# def list_updater(lst):
+#     upd_list = []
+#     for elem in lst:
+#         elem **= 2
+#         upd_list.append(elem)
+#     return upd_list
+#
+# foo = [1, 2, 3, 4, 5]
+# print(list_updater(foo))
+
+
+##########
+
 
