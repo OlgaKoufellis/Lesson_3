@@ -49,11 +49,11 @@
 ***
 '''
 
-# width = 3
-# height = 3
-# symbol = '*'
-# for i in range(height):
-#    print(width * symbol)
+width = 3
+height = 3
+symbol = '*'
+for i in range(height):
+   print(width * symbol)
 
 # a = int(input("Height ?:"))
 # b = int(input("Width ?:"))
