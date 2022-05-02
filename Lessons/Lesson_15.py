@@ -21,6 +21,10 @@ colors = ['Red', 'Green', 'Blue', 'Yellow']
 print(colors)
 colors.append('Orange')# добавляет что-тоо в список add to the end of list
 print(colors)
+log = colors.pop(1)
+print(log)
+print(colors)
+
 
 # colors = colors[::1]
 # print(colors)
@@ -54,6 +58,10 @@ print(colors)
 # print(colors)
 # print(real_colors)
 
+
+
+
+
 '''
 Задание 1
 В списке целых, заполненном случайными числами
@@ -66,7 +74,7 @@ print(colors)
 максимальным элементом;
 ■ Сумму элементов, находящихся между первым и последним положительными элементами.
 '''
-numbers = [1, 2, 3, 4, 5,-7, 99, 33, -23, 0, 45, 9]
+numbers = [-2, 1, 2, 3, 4, 5,-7, 99, 33, -23, 0, 45, 9, -1]
 sum_neg = 0
 sum_even = 0
 sum_odd = 0
@@ -93,6 +101,7 @@ for index in range(len(numbers)):
 for number in range(len(numbers)):
     if i % 3 == 0 and index != 0:
         mult = multiply_3 * numbers[index]
+
 
 # list список (массив) *двусвязанный список (тип хранения в памяти)
 # #итерируемый тип данных\ изменяемый тип данных\ индексируемый
