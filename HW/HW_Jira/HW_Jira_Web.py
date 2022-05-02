@@ -11,3 +11,5 @@ driver = webdriver.Chrome(executable_path=driver_path_chrome)
 # Open site
 driver.get('https://www.yanigen.com.ua')
 driver.maximize_window()
+
+
