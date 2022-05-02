@@ -296,3 +296,57 @@ for i in range(5):
             print('Player 2 win!')
             break
     count = count + 1
+
+
+
+
+
+
+
+
+def display_board(board):
+    for i in range(1, board + 1):
+        if i == 1:
+            print(i, i + 1, i + 2)
+
+        if i == 4:
+            print(i, i + 1, i + 2)
+
+        if i == 7:
+            print(i, i + 1, i + 2)
+
+        else:
+            continue
+
+    # The function accepts one parameter containing the board's current status
+    # and prints it out to the console.
+    # return board
+
+
+def enter_move(board):
+    a = input(firs_name, "please enter your move: (from 1 to 9) ")
+    if a == 1:
+
+
+# The function accepts the board's current status, asks the user about their move,
+# checks the input, and updates the board according to the user's decision.
+
+
+# def make_list_of_free_fields(board):
+#     # The function browses the board and builds a list of all the free squares;
+#     # the list consists of tuples, while each tuple is a pair of row and column numbers.
+
+
+# def victory_for(board, sign):
+#     # The function analyzes the board's status in order to check if
+#     # the player using 'O's or 'X's has won the game
+
+
+# def draw_move(board):
+#     # The function draws the computer's move and updates the board.
+
+board = 9
+comp = X
+you = 0
+display_board(board)
+enter_move(board)
