@@ -252,13 +252,13 @@ class Fraction:
 
 
 first_fraction = Fraction (2, 5)
-second_fraction = Fraction (125, 45)
 print(first_fraction.result('*'))
 print(first_fraction.result('/'))
 print(first_fraction.result('+'))
 print(first_fraction.result('-'))
 print(first_fraction.result('**'))
 
+second_fraction = Fraction (125, 45)
 print(second_fraction.result('*'))
 print(second_fraction.result('/'))
 print(second_fraction.result('+'))
